@@ -1,25 +1,29 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import { Navbar, Header, Carousel, CarouselVertical } from './components';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+const App = () => {
+    return(
+        <div className='App'>
+            <section className='testone-carousel gradient__bg'>
+                <div>
+                    <Navbar/>
+                    <div className='div-margin'>
+                        <Header/>
+                        <Carousel/>
+                    </div>
+                </div>
+            </section>
+            <section className='testone-vertical gradient__bg'>
+                <div>
+                    <Navbar/>
+                    <div className='div-margin'>
+                        <CarouselVertical/>
+                    </div>
+                </div>
+            </section>
+        </div>
+    );
 }
 
 export default App;

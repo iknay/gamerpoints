@@ -1,0 +1,18 @@
+.gp__carouselv-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+.gp__carouselv {
+    display: flex;
+    flex-direction: column;
+}
+  
+.gp__carouselv img {
+    box-shadow: 0px 0px 6.897444725036621px rgba(0, 0, 0, 0.51);
+    border-radius: 3px;
+    width: 240.757px;
+    height: 344.61px;
+}

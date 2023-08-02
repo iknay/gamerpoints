@@ -1,0 +1,41 @@
+.gp__carousel-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    overflow: hidden;
+  }
+  
+.gp__carousel {
+    display: inline-flex;
+    padding: 0.391px 0px 58.381px 0px;
+    justify-content: flex-end;
+    align-items: flex-start;
+    gap: 40.426px;
+    margin-top: -20px;
+    scroll-behavior: smooth;
+}
+  
+.gp__carousel img {
+    box-shadow: 0px 0px 6.897444725036621px rgba(0, 0, 0, 0.51);
+    border-radius: 3px;
+}
+
+.gp__ellipse1 {
+    position: relative;
+    width: 100vw;
+    height: 50px;
+    flex-shrink: 0;
+    z-index: 10;
+}
+
+.gp__ellipse2 {
+    border-radius: 100% 100% 0 0;
+    background-color: #070707;
+
+    width: 100vw;
+    height: 50px;
+    flex-shrink: 0;
+    z-index: 10;
+    margin-top: -100px;
+}
