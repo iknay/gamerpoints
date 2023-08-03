@@ -20,23 +20,23 @@ const VerticalSlider = () => {
   };
 
   return (
-    <div className="vertical-carousel">
-      <button className="arrow-button up" onClick={handleUpClick}>
+    <div className="gp__vertical-slider">
+      <button className="gp__arrow-button up" onClick={handleUpClick}>
         <img src={arrowup} alt="Arrow up" />
       </button>
-      <div className="carousel-container">
+      <div className="gp__vertical-slider-container">
         <img
-          className="active-image"
+          className="gp__active-image"
           src={images[currentIndex]}
           alt={`Image ${currentIndex}`}
         />
         <img
-          className="next-image"
+          className="gp__next-image"
           src={images[(currentIndex + 1) % images.length]}
           alt={`Image ${(currentIndex + 1) % images.length}`}
         />
       </div>
-      <button className="arrow-button down" onClick={handleDownClick}>
+      <button className="gp__arrow-button" onClick={handleDownClick}>
         <img src={arrowdown} alt="Arrow down" />
       </button>
     </div>

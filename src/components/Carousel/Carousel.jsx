@@ -11,11 +11,11 @@ const Carousel = () => {
     <div className='gp__carousel-container gp__concave-top'>
       {/* scrollable */}
       <div className='gp__carousel gp__concave-bottom'>
-        <img src={dota} alt='dota'/>
-        <img src={valorant} alt='valorant'/>
-        <img src={csgo} alt='csgo'/>
-        <img src={cod} alt='cod'/>   
-        <img src={cod} alt='cod'/>      
+        <img src={dota} alt='DOTA'/>
+        <img src={valorant} alt='Valorant'/>
+        <img src={csgo} alt='CSGO'/>
+        <img src={cod} alt='Call of Duty'/>   
+        <img src={cod} alt='Call of Duty'/>      
       </div>
     </div>
   )

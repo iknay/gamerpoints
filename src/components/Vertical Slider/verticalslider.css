@@ -1,4 +1,4 @@
-.vertical-carousel {
+.gp__vertical-slider {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -6,7 +6,7 @@
   margin-bottom: 20px;
 }
 
-.carousel-container {
+.gp__vertical-slider-container {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -15,18 +15,18 @@
   gap: 40px;
 }
 
-.active-image {
+.gp__active-image {
   max-height: 300px;
   transform: scale(1.2);
   transition: transform 0.5s ease-in-out;
 }
 
-.next-image {
+.gp__next-image {
   max-height: 200px;
   transition: transform 0.5s ease-in-out;
 }
 
-.arrow-button {
+.gp__arrow-button {
   background-color: transparent;
   border: none;
   font-size: 24px;
