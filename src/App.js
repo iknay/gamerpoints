@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import { Navbar, Header, Carousel, CarouselVertical } from './components';
+import { Navbar, Header, Carousel, VerticalSlider } from './components';
 
 const App = () => {
     return(
@@ -18,7 +18,7 @@ const App = () => {
                 <div>
                     <Navbar/>
                     <div className='div-margin'>
-                        <CarouselVertical/>
+                        <VerticalSlider/>
                     </div>
                 </div>
             </section>

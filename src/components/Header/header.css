@@ -6,6 +6,7 @@
     flex-direction: column;
     margin-top: 55px;
     overflow: hidden;
+    width: 100vw;
 }
 
 .gp__header-content {
@@ -68,6 +69,38 @@
     font-weight: 700;
     line-height: 21.435px;
     letter-spacing: 0.268px;
+}
+
+@media screen and (max-width: 700px) {
+    .gp__header-content p {
+        width: 100vw;
+        padding:0px 20px 0px 20px;
+    }
+}
+
+
+@media screen and (max-width: 550px) {
+    .gp__header-content h1 {
+        font-size: 24px;
+    }
+    .gp__header-content p {
+        font-size: 12px;
+        width: 100vw;
+        padding:0px 20px 0px 20px;
+    }
+    .gp__header-content {
+        gap: 0px;
+    }
+    .gp__header,
+    .gp__header-content {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 23px;
+        overflow: hidden;
+        width: 100vw;
+    }
 }
 
 .gp__ellipse {

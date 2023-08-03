@@ -51,20 +51,15 @@
 
 .gp__navbar-menu_container {
     display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
+    justify-content: flex-start;
+    align-items: flex-start;
     flex-direction: column;
-
-    text-align: end;
-    background: var(--color-footer);
-    padding: 2rem;
     position: absolute;
+    padding: 2rem;
     top: 40px;
     right: 0;
     margin-top: 1rem;
     min-width: 210px;
-    border-radius: 5px;
-    box-shadow: 0 0 5 rgba(0, 0, 0, 2);
 }
 
 .gp__navbar-menu_container p {

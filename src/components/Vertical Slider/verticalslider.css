@@ -1,0 +1,39 @@
+.vertical-carousel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.carousel-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  margin: 20px 0;
+  gap: 40px;
+}
+
+.active-image {
+  max-height: 300px;
+  transform: scale(1.2);
+  transition: transform 0.5s ease-in-out;
+}
+
+.next-image {
+  max-height: 200px;
+  transition: transform 0.5s ease-in-out;
+}
+
+.arrow-button {
+  background-color: transparent;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.up {
+  margin-bottom: 10px;
+}
+

@@ -34,9 +34,7 @@ const Navbar = () => {
         }
         {toggleMenu && (
           <div className="gp__navbar-menu_container scale-up-center">
-            <div className="gp__navbar-menu_container-link">
-              <Menu/>
-            </div>
+            <Menu/>
           </div>
         )}
       </div>
