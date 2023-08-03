@@ -3,40 +3,20 @@ import dota from '../../assets/dota.png';
 import valorant from '../../assets/valorant.png';
 import csgo from '../../assets/csgo.png';
 import cod from '../../assets/cod.png';
-import godofwar from '../../assets/godofwar.png';
 import './carousel.css';
 
 const Carousel = () => {
-  const carouselRef = useRef(null);
-  const [scrollPosition, setScrollPosition] = useState(0);
-
-  const handleScroll = (event) => {
-    const delta = Math.sign(event.deltaY);
-    if (delta > 0) {
-      carouselRef.current.scrollLeft += 100;
-    } else if (delta < 0) {
-      carouselRef.current.scrollLeft -= 100;
-    }
-  };
-
-  useEffect(() => {
-    carouselRef.current.addEventListener('wheel', handleScroll);
-    return () => {
-      carouselRef.current.removeEventListener('wheel', handleScroll);
-    };
-  }, []);
 
   return (
-    <div className='gp__carousel-container'>
-      <div className='gp__ellipse1'></div>
-      <div className='gp__carousel' ref={carouselRef}>
+    <div className='gp__carousel-container gp__concave-top'>
+      {/* scrollable */}
+      <div className='gp__carousel gp__concave-bottom'>
         <img src={dota} alt='dota'/>
         <img src={valorant} alt='valorant'/>
         <img src={csgo} alt='csgo'/>
-        <img src={cod} alt='cod'/>
-        <img src={godofwar} alt='god of war'/>
+        <img src={cod} alt='cod'/>   
+        <img src={cod} alt='cod'/>      
       </div>
-      <div className='gp__ellipse2'></div>
     </div>
   )
 }

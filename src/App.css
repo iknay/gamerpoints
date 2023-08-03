@@ -11,6 +11,7 @@ a {
     text-decoration: none;
 }
 
+
 .testone-carousel {
     height: min-content;
     margin-top: 0;
@@ -22,7 +23,7 @@ a {
 }
 
 .gradient__bg {
-    background: linear-gradient(180deg, #070707 6.06%, rgba(7, 7, 7, 0.00) 60%),
+    background: linear-gradient(180deg, rgba(7,7,7,1) 5%, rgba(7,7,7,0) 35%, rgba(7,7,7,0) 70%, rgba(7,7,7,1) 100%),
     url('../src/assets/Yellow1.png');
     background-repeat: no-repeat;
     background-size: cover;

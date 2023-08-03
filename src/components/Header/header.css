@@ -5,6 +5,7 @@
     justify-content: center;
     flex-direction: column;
     margin-top: 55px;
+    overflow: hidden;
 }
 
 .gp__header-content {
@@ -51,6 +52,11 @@
     align-items: center;
     flex-shrink: 0;
     cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+.gp__button:hover {
+    transform: scale(1.05);
 }
 
 .gp__button span {

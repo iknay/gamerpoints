@@ -12,7 +12,6 @@ const Header = () => {
       <button className='gp__button'>
         <span>EXPLORE MORE</span>
       </button>
-      <div className='gp__ellipse'></div>
     </div>
   )
 }
